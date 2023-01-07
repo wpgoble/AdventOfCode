@@ -61,7 +61,7 @@ def part2(lines:list) -> int:
 
 def main():
     """ Driver function """
-    elves_input = getInput('inputs/day1.txt')
+    elves_input = getInput('../inputs/day1.txt')
     sorted_elves, solution1 = part1(elves_input)
     solution2 = part2(sorted_elves)
 
